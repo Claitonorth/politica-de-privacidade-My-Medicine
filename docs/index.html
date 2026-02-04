@@ -8,7 +8,10 @@
     :root{--bg:#fff;--fg:#111;--muted:#666;--accent:#0066cc}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:2rem;background:var(--bg);color:var(--fg);line-height:1.6}
     main{max-width:900px;margin:0 auto}
-    h1{font-size:1.6rem;margin-bottom:0.25rem}
+    header{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+    h1{font-size:1.6rem;margin:0}
+    nav.toc{margin-top:1rem}
+    nav.toc ul{margin:0;padding-left:1rem}
     h2{font-size:1.15rem;margin-top:1.25rem}
     h3{font-size:1rem;margin-top:0.75rem}
     p{margin:0.5rem 0}
@@ -19,26 +22,53 @@
     footer{margin-top:2rem;font-size:0.95rem;color:var(--muted)}
     .note{color:var(--muted)}
     a{color:var(--accent)}
+    .lang-link{font-size:0.9rem}
   </style>
 </head>
 <body>
 <main>
-  <h1>Política de Privacidade — My Medicine / Meu Remédio</h1>
+  <header>
+    <h1>Política de Privacidade — My Medicine / Meu Remédio</h1>
+    <div class="lang-link"><a href="/docs/en/index.html">English version</a></div>
+  </header>
   <p class="note">Aplicativo: My Medicine / Meu Remédio — Empresa: CHO App — Contato: <a href="mailto:suporte.choapp@gmail.com">suporte.choapp@gmail.com</a></p>
 
-  <section>
+  <nav class="toc" aria-label="Índice">
+    <strong>Índice</strong>
+    <ul>
+      <li><a href="#introducao">1. Introdução</a></li>
+      <li><a href="#publico">2. Público‑Alvo e Abrangência</a></li>
+      <li><a href="#dados">3. Dados Pessoais Coletados</a>
+        <ul>
+          <li><a href="#dados-usuario">3.1 Dados fornecidos pelo usuário</a></li>
+          <li><a href="#dados-automaticos">3.2 Dados coletados automaticamente</a></li>
+        </ul>
+      </li>
+      <li><a href="#sensiveis">4. Dados Sensíveis</a></li>
+      <li><a href="#finalidade">5. Finalidade do Tratamento</a></li>
+      <li><a href="#base-legal">6. Base Legal</a></li>
+      <li><a href="#compartilhamento">7. Compartilhamento de Dados</a></li>
+      <li><a href="#armazenamento">8. Armazenamento e Retenção</a></li>
+      <li><a href="#direitos">9. Direitos do Titular</a></li>
+      <li><a href="#seguranca">10. Segurança da Informação</a></li>
+      <li><a href="#datasafety">Data Safety — Google Play</a></li>
+      <li><a href="#termos">Termos e Condições de Uso</a></li>
+    </ul>
+  </nav>
+
+  <section id="introducao">
     <h2>1. Introdução</h2>
     <p>Esta Política de Privacidade descreve como a CHO App realiza o tratamento de dados pessoais e dados sensíveis dos usuários do aplicativo My Medicine / Meu Remédio, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 – LGPD) e com as políticas da Google Play Store.</p>
   </section>
 
-  <section>
+  <section id="publico">
     <h2>2. Público‑Alvo e Abrangência</h2>
     <p>O aplicativo é destinado ao público geral, incluindo adultos e idosos, podendo ser utilizado por usuários localizados no Brasil e em outros países.</p>
   </section>
 
-  <section>
+  <section id="dados">
     <h2>3. Dados Pessoais Coletados</h2>
-    <h3>3.1 Dados fornecidos pelo usuário</h3>
+    <h3 id="dados-usuario">3.1 Dados fornecidos pelo usuário</h3>
     <ul>
       <li>Nome</li>
       <li>Endereço de e‑mail</li>
@@ -47,14 +77,14 @@
       <li>Informações sobre medicamentos</li>
     </ul>
 
-    <h3>3.2 Dados coletados automaticamente</h3>
+    <h3 id="dados-automaticos">3.2 Dados coletados automaticamente</h3>
     <ul>
       <li>Identificadores do dispositivo (ex.: Android ID)</li>
       <li>Dados de uso do aplicativo</li>
     </ul>
   </section>
 
-  <section>
+  <section id="sensiveis">
     <h2>4. Dados Sensíveis</h2>
     <p>O aplicativo coleta dados sensíveis relacionados à saúde, tais como:</p>
     <ul>
@@ -65,7 +95,7 @@
     <p>Esses dados são sincronizados e armazenados em infraestrutura de nuvem fornecida pelo Firebase / Google Cloud.</p>
   </section>
 
-  <section>
+  <section id="finalidade">
     <h2>5. Finalidade do Tratamento</h2>
     <p>Os dados são tratados para:</p>
     <ul>
@@ -76,7 +106,7 @@
     </ul>
   </section>
 
-  <section>
+  <section id="base-legal">
     <h2>6. Base Legal</h2>
     <p>O tratamento ocorre com base:</p>
     <ul>
@@ -85,7 +115,7 @@
     </ul>
   </section>
 
-  <section>
+  <section id="compartilhamento">
     <h2>7. Compartilhamento de Dados</h2>
     <p>Os dados podem ser compartilhados com:</p>
     <ul>
@@ -95,12 +125,12 @@
     <p class="note">⚠️ Dados sensíveis de saúde não são utilizados para personalização de anúncios, segmentação comportamental ou perfilhamento publicitário.</p>
   </section>
 
-  <section>
+  <section id="armazenamento">
     <h2>8. Armazenamento e Retenção</h2>
     <p>Os dados são armazenados em servidores do Firebase / Google Cloud e permanecem armazenados mesmo após a desinstalação do aplicativo, sem prazo de retenção previamente definido, até que o usuário solicite sua exclusão.</p>
   </section>
 
-  <section>
+  <section id="direitos">
     <h2>9. Direitos do Titular</h2>
     <p>O usuário pode solicitar:</p>
     <ul>
@@ -112,12 +142,12 @@
     <p>Solicitações via: <a href="mailto:suporte.choapp@gmail.com">suporte.choapp@gmail.com</a></p>
   </section>
 
-  <section>
+  <section id="seguranca">
     <h2>10. Segurança da Informação</h2>
     <p>Os dados são transmitidos por meio de conexões seguras (HTTPS/TLS) fornecidas pela infraestrutura do Firebase. O acesso é protegido por mecanismos de autenticação.</p>
   </section>
 
-  <section>
+  <section id="datasafety">
     <h2>Data Safety — Google Play (ajustado)</h2>
     <p>Dados Coletados:</p>
     <table>
@@ -138,7 +168,7 @@
     <p class="note">Criptografia em trânsito (HTTPS/TLS). Autenticação de usuário.</p>
   </section>
 
-  <section>
+  <section id="termos">
     <h2>Termos e Condições de Uso</h2>
     <p>Aplicativo: My Medicine / Meu Remédio — Empresa: CHO App</p>
 

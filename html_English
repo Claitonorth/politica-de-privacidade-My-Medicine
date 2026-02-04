@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Medicine - Policies</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background:#f6f8fb;
+  margin:0;
+  color:#333;
+  line-height:1.6;
+}
+
+header{
+  background:#1976D2;
+  color:#fff;
+  padding:20px;
+  text-align:center;
+}
+
+nav{
+  background:#1565C0;
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  padding:12px;
+  position:sticky;
+  top:0;
+}
+
+nav a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+nav a:hover{
+  text-decoration:underline;
+}
+
+section{
+  background:#fff;
+  margin:30px auto;
+  max-width:900px;
+  padding:30px;
+  border-radius:8px;
+  box-shadow:0 0 8px rgba(0,0,0,0.05);
+}
+
+h1,h2{
+  color:#1976D2;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th,td{
+  border:1px solid #ccc;
+  padding:8px;
+}
+
+th{
+  background:#e3f2fd;
+}
+
+footer{
+  background:#1976D2;
+  color:#fff;
+  text-align:center;
+  padding:15px;
+  margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>My Medicine</h1>
+  <p>CHO App</p>
+</header>
+
+<nav>
+  <a href="#privacy">Privacy Policy</a>
+  <a href="#terms">Terms & Conditions</a>
+  <a href="#datasafety">Data Safety</a>
+</nav>
+
+<!-- ================= PRIVACY POLICY ================= -->
+
+<section id="privacy">
+<h2>Privacy Policy</h2>
+
+<p><strong>Contact:</strong> suporte.choapp@gmail.com</p>
+
+<h3>Data Collected</h3>
+<ul>
+<li>Name</li>
+<li>Email address</li>
+<li>Date of birth</li>
+<li>Gender</li>
+<li>Medication information</li>
+<li>Health conditions</li>
+<li>Device identifiers</li>
+<li>App usage data</li>
+</ul>
+
+<h3>Purpose of Processing</h3>
+<p>User authentication, core functionality, data synchronization, storage, and user support.</p>
+
+<h3>Sensitive Data</h3>
+<p>Health-related data is stored using Firebase / Google Cloud infrastructure.</p>
+
+<h3>Data Sharing</h3>
+<p>Firebase Analytics and Google AdMob.</p>
+
+<p><strong>Health data is never used for ad personalization.</strong></p>
+
+<h3>Data Retention</h3>
+<p>Data may remain stored even after app uninstallation until deletion is requested.</p>
+
+<h3>Security</h3>
+<p>Secure transmission via HTTPS/TLS and user authentication.</p>
+
+</section>
+
+<!-- ================= TERMS ================= -->
+
+<section id="terms">
+<h2>Terms & Conditions</h2>
+
+<p>By using this application, you agree to these Terms.</p>
+
+<p>The application helps manage medication usage and does not replace professional medical advice.</p>
+
+<p>You may not copy, modify, redistribute, or reverse engineer the application.</p>
+
+<p>CHO App is not responsible for decisions made based on information entered by users.</p>
+
+<p>These Terms are governed by the laws of Brazil.</p>
+
+</section>
+
+<!-- ================= DATA SAFETY ================= -->
+
+<section id="datasafety">
+<h2>Data Safety (Google Play)</h2>
+
+<table>
+<tr>
+<th>Data Type</th>
+<th>Collected</th>
+<th>Shared</th>
+<th>Purpose</th>
+</tr>
+
+<tr>
+<td>Name</td>
+<td>Yes</td>
+<td>No</td>
+<td>Authentication</td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td>Yes</td>
+<td>No</td>
+<td>Authentication</td>
+</tr>
+
+<tr>
+<td>Date of birth</td>
+<td>Yes</td>
+<td>No</td>
+<td>App functionality</td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>Yes</td>
+<td>No</td>
+<td>App functionality</td>
+</tr>
+
+<tr>
+<td>Medication data</td>
+<td>Yes</td>
+<td>No</td>
+<td>App functionality</td>
+</tr>
+
+<tr>
+<td>Health conditions</td>
+<td>Yes</td>
+<td>No</td>
+<td>App functionality</td>
+</tr>
+
+<tr>
+<td>Device identifiers</td>
+<td>Yes</td>
+<td>Yes (Google)</td>
+<td>Analytics / Ads</td>
+</tr>
+
+<tr>
+<td>Usage data</td>
+<td>Yes</td>
+<td>Yes (Google)</td>
+<td>Analytics</td>
+</tr>
+
+</table>
+
+<h3>Security Practices</h3>
+<p>Data is transmitted using HTTPS/TLS and protected by authentication mechanisms.</p>
+
+<h3>Data Deletion</h3>
+<p>Users may request data deletion by contacting suporte.choapp@gmail.com</p>
+
+</section>
+
+<footer>
+© 2026 CHO App – All rights reserved<br>
+suporte.choapp@gmail.com
+</footer>
+
+</body>
+</html>
